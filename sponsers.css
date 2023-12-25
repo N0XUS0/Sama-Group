@@ -1,0 +1,97 @@
+:root {
+    --text-main-color: #ffff;
+    --text-secondary-color: #0e0e0e;
+    --background-main-color: rgb(255, 255, 255);
+    --background-secondary-color: #343434;
+    --cards-color: #f4f4f4;
+    --main-color: #f6b921;
+    --shadow-first-background-color: #000000c8;
+    --shadow-second-background-color: #000000a8;
+    --transation: 0.3s;
+    --margin-top-large: 70px;
+    --margin-top-small: 75px;
+    --border-radius: 8px;
+}
+.board{
+    text-align: center;
+    font-weight: 900 !important;
+    color: var(--main-color);
+    font-size: 2rem !important;
+    margin-top: 10px !important;
+    padding-top: 30px;
+  }
+  /* .spons a {
+    display:inline-block !important;
+    align-items: center;
+  }
+   */
+   .sectionOne img{
+    width:70%;
+height: auto;
+   }
+   .on{
+    margin-left: 250px;
+    margin-right: -300px;
+   }
+   /* @media (min-width:601px) and (max-width:767px) {
+
+    .pd{
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        display:inline-block ;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .container{
+        margin-left: 5vh !important;
+    }
+} */
+
+@media only screen and (max-width: 600px) {
+    .on{
+        margin-left: 0%;
+        margin-right: 0%;
+       }
+} 
+@media (min-width:601px) and (max-width:767px) {
+    .on{
+        margin-left: 0%;
+        margin-right: 0%;
+       }
+
+}
+@media (min-width:768px) and (max-width:791px) {
+    .on{
+        margin-left: 250px;
+        margin-right: -300px;
+       }
+}
+
+
+@media (min-width:792px) and (max-width:940px) {
+    .on{
+        margin-left: 0%;
+        margin-right: 0%;
+       }
+}
+@media (min-width:941px) and (max-width:1023px){
+    .on{
+        margin-left: 0%;
+        margin-right: 0%;
+       }
+}
+@media (min-width:1024px) and (max-width:1200px) {
+    .on{
+        margin-left: 0%;
+        margin-right: 0%;
+       }
+}
+
+@media (min-width:1400px) and (max-width:3700px) {
+
+    .on{
+        margin-left: 0%;
+        margin-right: 0%;
+       }
+} /**/
